@@ -1,0 +1,144 @@
+* {
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+#header {
+    top: 0;
+    left: 0;
+    padding: 20px 50px;
+    z-index: 999;
+    box-shadow: 1px 1px 10px grey;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: sticky;
+    width: 99%;
+    height: 90px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#header span {
+    margin-right: 420px;
+    font-size: 27px;
+    font-weight: bolder;
+    color: orange;
+}
+
+.logoSize {
+    height: 70px;
+}
+
+#navbar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#navbar li {
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    padding: 0 30px;
+    margin-left: -20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+#navbar li a.active,
+#navbar li:hover {
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3ms ease-in;
+}
+
+#header button {
+    background-color: white;
+    border-width: 0.5px;
+    width: 55px;
+    height: 25px;
+    border-radius: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+    outline: 0;
+}
+
+#header button span {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    display: block;
+    margin-left: 2px;
+}
+
+#hero {
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    height: 78vh;
+    position: relative;
+}
+
+#imagesama {
+    margin-top: -55px;
+    height: 70vh;
+    width: 40%;
+    background-color: white;
+    /* border-radius: 50%; */
+}
+
+#card {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
+#card h1 {
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+#card span {
+    font-size: 18px;
+}
+
+#btn {
+    margin-top: 35px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: orange;
+    border-width: 0;
+    color: white;
+}
+
+#btn span {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#btn:hover {
+    background-color: white;
+    border-width: 1px;
+    color: black;
+}
